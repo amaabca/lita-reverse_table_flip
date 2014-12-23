@@ -10,9 +10,8 @@ module Lita
         message = "┬─┬ ノ( ゜-゜ノ)"
         response.reply(message)
       end
-
     end
-
     Lita.register_handler(ReverseTableFlip)
   end
 end
+
