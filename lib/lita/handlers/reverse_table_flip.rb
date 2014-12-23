@@ -1,9 +1,6 @@
 module Lita
   module Handlers
     class ReverseTableFlip < Handler
-      def initializer
-        super
-      end
     
       route(/\(tableflip\)/i, :flip, command: false,
         help: { "tableflip" => "Flips tables back upright." }
