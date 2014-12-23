@@ -1,7 +1,7 @@
 module Lita
   module Handlers
     class ReverseTableFlip < Handler
-      def initialize(robot)
+      def initializer
         super
       end
     
