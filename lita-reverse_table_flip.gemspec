@@ -1,11 +1,15 @@
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'lita/reverse_table_flip/version'
+
 Gem::Specification.new do |spec|
   spec.name          = "lita-reverse_table_flip"
-  spec.version       = "0.0.1"
+  spec.version       = Lita::ReverseTableFlip::VERSION
   spec.authors       = ["Adam Melnyk"]
   spec.email         = ["adam.melnyk@gmail.com"]
-  spec.description   = %q{TODO: Add a description}
-  spec.summary       = %q{TODO: Add a summary}
-  spec.homepage      = "TODO: Add a homepage"
+  spec.description   = %q{"Unflips" a flipped table}
+  spec.summary       = %q{"Unflips" a flipped table}
+  spec.homepage      = "https://github.com/amaabca/lita-reverse_table_flip"
   spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "handler" }
 
